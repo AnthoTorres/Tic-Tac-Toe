@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2CECF23923AAB8C2001ED0C3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECF23823AAB8C2001ED0C3 /* Player.swift */; };
+		8E1B9B1B23AAB841000737DC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B9B1A23AAB841000737DC /* GameViewController.swift */; };
 		8E44E7CD23AAAB300065CBA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E44E7CC23AAAB300065CBA5 /* AppDelegate.swift */; };
 		8E44E7CF23AAAB300065CBA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E44E7CE23AAAB300065CBA5 /* SceneDelegate.swift */; };
 		8E44E7D423AAAB310065CBA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E44E7D223AAAB310065CBA5 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		2CECF23823AAB8C2001ED0C3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8E1B9B1A23AAB841000737DC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		8E44E7C923AAAB300065CBA5 /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E44E7CC23AAAB300065CBA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E44E7CE23AAAB300065CBA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				8E44E7E323AAAB870065CBA5 /* ViewControllers */,
-				8E44E7E223AAAB7E0065CBA5 /* ModelControllers */,
 				8E44E7E123AAAB700065CBA5 /* Models */,
 				8E44E7D223AAAB310065CBA5 /* Main.storyboard */,
 				8E44E7E023AAAB4A0065CBA5 /* Resources */,
@@ -85,16 +86,10 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		8E44E7E223AAAB7E0065CBA5 /* ModelControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ModelControllers;
-			sourceTree = "<group>";
-		};
 		8E44E7E323AAAB870065CBA5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8E1B9B1A23AAB841000737DC /* GameViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -172,6 +167,7 @@
 			files = (
 				2CECF23923AAB8C2001ED0C3 /* Player.swift in Sources */,
 				8E44E7CD23AAAB300065CBA5 /* AppDelegate.swift in Sources */,
+				8E1B9B1B23AAB841000737DC /* GameViewController.swift in Sources */,
 				8E44E7CF23AAAB300065CBA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
